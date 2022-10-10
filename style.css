@@ -1,0 +1,27 @@
+:root{
+    --linen: #e3dac9;
+    --orange: #d93826;
+    --green: #596235;
+    --forest: #2f3020;
+}
+
+*{
+    background: var(--linen);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--orange)
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--linen);
+    font-weight: bold;
+}
+
+button{
+    background-color: var(--orange);
+    Color: var(--linen);
+    border-radius: 20px;
+}
