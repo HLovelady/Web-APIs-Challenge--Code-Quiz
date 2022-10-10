@@ -25,3 +25,33 @@ button{
     Color: var(--linen);
     border-radius: 20px;
 }
+
+section{
+    display: flex;
+    background-color: var(--green);
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    border: 8px dotted var(--forest);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* The sections fills 50% of the screen at 992px or smaller */
+@media screen and (max-width: 992px) {
+    section{
+        display: flex;
+        width: 50%;
+        height: 500px;
+  }
+}
+  
+  /*The sections fills 75% of the screen at 768px or smaller */
+  @media screen and (max-width: 768px) {
+section{
+    display: flex;
+    width: 75%;
+    height: 500px;
+    }
+  }
