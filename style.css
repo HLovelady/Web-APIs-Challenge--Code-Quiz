@@ -8,7 +8,8 @@
 *{
     background: var(--linen);
     font-family: Calibri, 'Trebuchet MS', sans-serif;
-    color: var(--orange)
+    color: var(--orange);
+    border-radius: 20px;
 }
 
 nav{
@@ -23,17 +24,17 @@ nav{
 button{
     background-color: var(--orange);
     Color: var(--linen);
-    border-radius: 20px;
+    border-radius: 8px;
+    border: 4px solid var(--green);
 }
 
-section{
+.box{
     display: flex;
     background-color: var(--green);
     text-align: center;
     width: 50%;
-    height: 500px;
-    border: 8px dotted var(--forest);
-    border-radius: 20px;
+    height: 300px;
+    border: 8px solid var(--orange);
     padding: 20px;
     margin: 20px;
 }
