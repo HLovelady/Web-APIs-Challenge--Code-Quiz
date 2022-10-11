@@ -26,6 +26,7 @@ button{
     Color: var(--linen);
     border-radius: 8px;
     border: 4px solid var(--green);
+    margin: 20px;
 }
 
 .box{
@@ -36,7 +37,7 @@ button{
     height: 300px;
     border: 8px solid var(--orange);
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
 }
 
 /* The sections fills 50% of the screen at 992px or smaller */
