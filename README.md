@@ -31,10 +31,11 @@ THEN I can save my initials and my score
 
 ## Deployed Application
 
-
+https://hlovelady.github.io/Web-APIs-Challenge-Code-Quiz/
 
 ## GitHub URL
-
+https://github.com/HLovelady/Web-APIs-Challenge-Code-Quiz
 ---
 
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+## License
+GNU General Public License v3.0
