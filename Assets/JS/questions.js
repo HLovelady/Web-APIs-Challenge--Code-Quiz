@@ -23,7 +23,7 @@ var questionARR = {
         "'Not' Operator !",
         "All the above",
       ],
-      answer: "All the above"
+      answer: 3
     },
     {
       question: "Commonly used data types DO NOT include:",
@@ -38,12 +38,12 @@ var questionARR = {
         "None of the above",
         "All of the above"
       ],
-      answer: "Object data types",
+      answer: 0,
     },
     {
       question: "The condition in an if / else statement is enclosed within ____.",
       choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
+      answer: 2,
     },
     {
       question: "Arrays in JavaScript can be used to store ____.",
@@ -53,21 +53,20 @@ var questionARR = {
         "booleans",
         "all of the above"
       ],
-      answer: "all of the above"
+      answer: 3,
     },
     {
       question:
         "String values must be enclosed within ____ when being assigned to variables.",
       choices: ["commas", "curly brackets", "quotes", "parentheses"],
-      answer: "quotes"
+      answer: 2,
     },
     {
       question: "What type of Pop-up box is available in JavaScript?:",
       choices: ["Alert", "Confirm", "Prompt", "All the above"],
-      answer: "All the above"
+      answer: 3,
     }
 };
 
 
-  
   
