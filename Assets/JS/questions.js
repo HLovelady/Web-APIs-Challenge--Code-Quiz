@@ -8,39 +8,45 @@ function answer() {
         displayMessage("Incorrect.")
     }
 
-var questions = {
+answer("All the above", "All the above")
+answer("class", "class")
+answer("Object data types", "Object data types")
+answer("quotes", "quotes")
 
-      title: "What are the boolean operators that can be used in JavaScript?",
+
+var questionARR = {
+
+      question: "What are the boolean operators that can be used in JavaScript?",
       choices: [
         "'And' Operator &&",
         "'Or' Operator ||",
         "'Not' Operator !",
-        "All the above"
+        "All the above",
       ],
       answer: "All the above"
     },
     {
-        title: "Commonly used data types DO NOT include:",
+      question: "Commonly used data types DO NOT include:",
         choices: ["strings", "class", "booleans", "numbers"],
-        answer: "clss"
+        answer: "class",
       },
     {
-      title: "What is the data type of variables in JavaScript?",
+      question: "What is the data type of variables in JavaScript?",
       choices: [
         "Object data types",
         "Function data type",
         "None of the above",
         "All of the above"
       ],
-      answer: "Object data types"
+      answer: "Object data types",
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
+      question: "The condition in an if / else statement is enclosed within ____.",
       choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
       answer: "parentheses"
     },
     {
-      title: "Arrays in JavaScript can be used to store ____.",
+      question: "Arrays in JavaScript can be used to store ____.",
       choices: [
         "numbers and strings",
         "other arrays",
@@ -50,13 +56,13 @@ var questions = {
       answer: "all of the above"
     },
     {
-      title:
+      question:
         "String values must be enclosed within ____ when being assigned to variables.",
       choices: ["commas", "curly brackets", "quotes", "parentheses"],
       answer: "quotes"
     },
     {
-      title: "What type of Pop-up box is available in JavaScript?:",
+      question: "What type of Pop-up box is available in JavaScript?:",
       choices: ["Alert", "Confirm", "Prompt", "All the above"],
       answer: "All the above"
     }
